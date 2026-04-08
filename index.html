@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nvafeomo K. Konneh — Full-stack developer and CS student" />
+  <title>Nvafeomo K. Konneh — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="app" class="theme-dark">
+    <div class="noise" aria-hidden="true"></div>
+    <div class="glow-orbs" aria-hidden="true">
+      <span class="orb orb-a"></span>
+      <span class="orb orb-b"></span>
+    </div>
+
+    <header class="site-header">
+      <a href="#top" class="logo mono">NK</a>
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-grid">
+          <p class="hero-kicker mono fade-in">Full-stack · Penn State CS</p>
+          <h1 id="hero-title" class="hero-title fade-in delay-1">
+            <span class="hero-name">Nvafeomo K. Konneh</span>
+          </h1>
+          <p class="hero-lede fade-in delay-2">
+            I build <strong>web</strong> and <strong>mobile</strong> apps with React, React Native, Node, and Python. At my AI/ML internship I worked on <strong>LLM</strong> document pipelines end to end.
+          </p>
+          <div class="hero-actions fade-in delay-3">
+            <a class="btn btn-primary" href="#projects">View work</a>
+            <a class="btn btn-ghost" href="#contact">Get in touch</a>
+          </div>
+          <aside class="hero-meta fade-in delay-4" aria-label="Quick facts">
+            <dl class="meta-list">
+              <div>
+                <dt class="mono">Location</dt>
+                <dd>Upper Darby, PA</dd>
+              </div>
+              <div>
+                <dt class="mono">Graduation</dt>
+                <dd>May 2027</dd>
+              </div>
+              <div>
+                <dt class="mono">Focus</dt>
+                <dd>Full-stack · Real-time · Data</dd>
+              </div>
+            </dl>
+          </aside>
+        </div>
+      </section>
+
+      <section id="about" class="section section-about">
+        <div class="section-inner">
+          <header class="section-head">
+            <span class="section-index mono">01</span>
+            <h2 class="section-title">About</h2>
+          </header>
+          <div class="about-layout">
+            <div class="about-copy">
+              <p class="lead">
+                CS student at Penn State. I spend most of my time on full-stack work: <strong>React</strong>, <strong>Node</strong>, <strong>PostgreSQL</strong>, and <strong>Supabase</strong>, including auth and real-time pieces on client projects.
+              </p>
+              <p>
+                Last summer I was an <strong>AI/ML intern</strong> building LLM-based document pipelines (REST APIs, prompts, evaluation). I’ve also done <strong>freelance</strong> full-stack builds: milestones with the client, docs for APIs and deploys.
+              </p>
+            </div>
+            <div class="about-card">
+              <h3 class="about-card-title mono">Education</h3>
+              <p class="about-card-strong">Pennsylvania State University</p>
+              <p>B.S. Computer Science · Minor Mathematics</p>
+              <p class="about-card-meta">GPA 3.7/4.0 · Dean’s List · Media, PA</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section section-exp">
+        <div class="section-inner">
+          <header class="section-head">
+            <span class="section-index mono">02</span>
+            <h2 class="section-title">Experience</h2>
+          </header>
+          <ol class="timeline">
+            <li class="timeline-item">
+              <div class="timeline-marker" aria-hidden="true"></div>
+              <div class="timeline-body">
+                <div class="timeline-top">
+                  <h3 class="timeline-role">AI/ML Intern</h3>
+                  <span class="timeline-org">Outamation</span>
+                  <span class="timeline-when mono">Jun 2025 — Aug 2025</span>
+                  <span class="timeline-where">Remote</span>
+                </div>
+                <ul class="timeline-bullets">
+                  <li>Built document-processing flows in Python using LLM APIs and REST services to classify, extract, and summarize 50+ document batches.</li>
+                  <li>Reproduced extraction failures, tuned preprocessing and prompts, and improved accuracy 10–20% on recurring production errors.</li>
+                  <li>Automated preprocessing and validation for mixed-format uploads, cutting manual review time 15–25%.</li>
+                </ul>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <div class="timeline-marker" aria-hidden="true"></div>
+              <div class="timeline-body">
+                <div class="timeline-top">
+                  <h3 class="timeline-role">Full-Stack Developer</h3>
+                  <span class="timeline-org">Freelance</span>
+                  <span class="timeline-when mono">Nov 2025 — Feb 2026</span>
+                  <span class="timeline-where">Remote</span>
+                </div>
+                <ul class="timeline-bullets">
+                  <li>Designed and shipped 2 full-stack applications with React, Node.js, and Express using REST APIs and JWT/session auth.</li>
+                  <li>Refactored front ends to reduce load time ~40% on key user views.</li>
+                  <li>Scoped releases with clients and documented APIs and deployments for handoffs.</li>
+                </ul>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="projects" class="section section-projects">
+        <div class="section-inner">
+          <header class="section-head">
+            <span class="section-index mono">03</span>
+            <h2 class="section-title">Projects</h2>
+          </header>
+          <div class="project-grid">
+            <article class="project-card">
+              <header class="project-card-head">
+                <h3 class="project-name">RimRun</h3>
+                <span class="project-dates mono">Jan 2026 — Present</span>
+              </header>
+              <p class="project-stack mono">Expo · React Native · TypeScript · Supabase · PostgreSQL</p>
+              <p class="project-desc">Court discovery app mapping 60k+ court locations with auth, RLS, storage, and real-time DMs and group chat.</p>
+              <ul class="project-highlights">
+                <li>PostgreSQL / Supabase data model at scale</li>
+                <li>Supabase Realtime messaging</li>
+              </ul>
+              <footer class="project-links">
+                <a href="https://github.com/Nvafeomo/RimRun" target="_blank" rel="noopener noreferrer">Source</a>
+                <a href="https://nvafeomo.github.io/RimRun/Demo/Screenshots/demo.html" target="_blank" rel="noopener noreferrer">Demo</a>
+              </footer>
+            </article>
+
+            <article class="project-card">
+              <header class="project-card-head">
+                <h3 class="project-name">LeetHelper</h3>
+                <span class="project-dates mono">Nov 2025 — Present</span>
+              </header>
+              <p class="project-stack mono">Python · Flask · SQLAlchemy · PostgreSQL · HTML/CSS/JS</p>
+              <p class="project-desc">LeetCode tracker with Flask APIs so users browse problems and log timed attempts; stats and filters over structured data.</p>
+              <ul class="project-highlights">
+                <li>Flask-Login sessions &amp; CSRF protection</li>
+                <li>SQLAlchemy + PostgreSQL persistence</li>
+              </ul>
+              <footer class="project-links">
+                <a href="https://github.com/Nvafeomo/LeetHelper" target="_blank" rel="noopener noreferrer">Source</a>
+                <a href="https://leethelper-fo7m.onrender.com" target="_blank" rel="noopener noreferrer">Live</a>
+              </footer>
+            </article>
+
+            <article class="project-card">
+              <header class="project-card-head">
+                <h3 class="project-name">Chat Application</h3>
+                <span class="project-dates mono">Sep 2025 — Present</span>
+              </header>
+              <p class="project-stack mono">Go · C · React · TypeScript · WebSocket · Docker · Vite</p>
+              <p class="project-desc">Multi-room chat: Go WebSocket server, React/TypeScript client, Docker Compose, optional Node WebSocket server, plus a C TCP server (Linux/WSL).</p>
+              <ul class="project-highlights">
+                <li>Goroutines &amp; channels · React + Vite</li>
+                <li>Docker Compose one-command local runs</li>
+              </ul>
+              <footer class="project-links">
+                <a href="https://github.com/Nvafeomo/Chat-Application" target="_blank" rel="noopener noreferrer">Source</a>
+                <a href="https://nvafeomo.github.io/Chat-Application/demo.html" target="_blank" rel="noopener noreferrer">Demo</a>
+              </footer>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section section-skills">
+        <div class="section-inner">
+          <header class="section-head">
+            <span class="section-index mono">04</span>
+            <h2 class="section-title">Technical skills</h2>
+          </header>
+          <div class="skills-blobs">
+            <div class="skill-blob">
+              <h3 class="mono">Languages</h3>
+              <p>C, Go, JavaScript, Python, SQL, TypeScript</p>
+            </div>
+            <div class="skill-blob">
+              <h3 class="mono">Backend / systems</h3>
+              <p>Node.js, Express, Flask, SQLAlchemy, REST, WebSockets, PostgreSQL, MongoDB, Supabase</p>
+            </div>
+            <div class="skill-blob">
+              <h3 class="mono">Frontend</h3>
+              <p>HTML/CSS, React, React Native, Expo, Vite</p>
+            </div>
+            <div class="skill-blob">
+              <h3 class="mono">Infra &amp; practice</h3>
+              <p>Docker, Git, CI/CD, Linux, Render · Agile, Scrum</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section section-contact">
+        <div class="section-inner contact-inner">
+          <header class="section-head">
+            <span class="section-index mono">05</span>
+            <h2 class="section-title">Contact</h2>
+          </header>
+          <p class="contact-lede">
+            Internships, contract work, or a project to talk through—email me or use the form.
+          </p>
+          <div class="contact-chips">
+            <a class="contact-chip" href="mailto:nvafeomo05@gmail.com">
+              <span class="mono label">Email</span>
+              <span>nvafeomo05@gmail.com</span>
+            </a>
+            <a class="contact-chip" href="tel:+12674618268">
+              <span class="mono label">Phone</span>
+              <span>(267) 461-8268</span>
+            </a>
+            <a class="contact-chip" href="https://www.linkedin.com/in/nvafeomo-konneh-a6a1a9367/" target="_blank" rel="noopener noreferrer">
+              <span class="mono label">LinkedIn</span>
+              <span>nvafeomo-konneh</span>
+            </a>
+            <a class="contact-chip" href="https://github.com/Nvafeomo" target="_blank" rel="noopener noreferrer">
+              <span class="mono label">GitHub</span>
+              <span>@Nvafeomo</span>
+            </a>
+          </div>
+          <form class="contact-form" action="https://formspree.io/f/xvzvyzaj" method="post">
+            <label class="sr-only" for="contact-name">Name</label>
+            <input id="contact-name" name="name" type="text" placeholder="Name" autocomplete="name" />
+            <label class="sr-only" for="contact-email">Email</label>
+            <input id="contact-email" name="email" type="email" placeholder="Email" autocomplete="email" />
+            <label class="sr-only" for="contact-msg">Message</label>
+            <textarea id="contact-msg" name="message" rows="4" placeholder="Message"></textarea>
+            <button type="submit" class="btn btn-primary">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p class="mono">© <span id="year"></span> Nvafeomo K. Konneh</p>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
