@@ -43,7 +43,7 @@
 
   if (!prefersReduced) {
     const revealables = document.querySelectorAll(
-      '.section-head, .about-layout, .timeline-item, .project-card, .skill-blob, .contact-chips, .contact-form'
+      '.section-head, .about-layout, .timeline-item, .projects-subtitle, .project-card, .skill-blob, .contact-chips, .contact-form'
     );
     revealables.forEach((el) => el.classList.add('reveal'));
 

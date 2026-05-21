@@ -576,6 +576,31 @@ main {
   margin-bottom: 0.4rem;
 }
 
+.projects-subsection {
+  margin-bottom: 2.75rem;
+}
+
+.projects-subsection:last-of-type {
+  margin-bottom: 0;
+}
+
+.projects-subtitle {
+  margin: 0 0 1.1rem;
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: 1.35rem;
+  color: var(--text);
+}
+
+.project-links-note {
+  margin: 0;
+  padding: 0;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  line-height: 1.45;
+}
+
 .project-grid {
   display: grid;
   gap: 1.25rem;
