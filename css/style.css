@@ -448,6 +448,51 @@ main {
   color: var(--text-muted);
 }
 
+.about-personal {
+  margin-top: 2rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--line);
+}
+
+.about-personal-title {
+  margin: 0 0 1rem;
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: var(--text);
+}
+
+.about-personal-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.about-personal-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.65rem;
+  margin: 0;
+  font-size: 0.97rem;
+  line-height: 1.55;
+  color: var(--text-muted);
+}
+
+.about-personal-list li span:last-child strong {
+  color: var(--text);
+}
+
+.about-emoji {
+  flex-shrink: 0;
+  width: 1.35rem;
+  text-align: center;
+  font-size: 1.05rem;
+  line-height: 1.55;
+}
+
 .about-card {
   padding: 1.75rem;
   background: var(--bg-card);
