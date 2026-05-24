@@ -55,7 +55,7 @@
               </div>
               <div>
                 <dt class="mono">Graduation</dt>
-                <dd>May 2027</dd>
+                <dd>B.S. Aug 2026 · M.Eng May 2028 (expected)</dd>
               </div>
               <div>
                 <dt class="mono">Focus</dt>
@@ -105,8 +105,9 @@
             <div class="about-card">
               <h3 class="about-card-title mono">Education</h3>
               <p class="about-card-strong">Pennsylvania State University</p>
-              <p>B.S. Computer Science · Minor Mathematics</p>
-              <p class="about-card-meta">GPA 3.7/4.0 · Dean’s List · Media, PA</p>
+              <p>M.Eng. Software Engineering (expected May 2028) · Malvern, PA</p>
+              <p>B.S. Computer Science · Minor Mathematics (early grad Aug 2026) · Media, PA</p>
+              <p class="about-card-meta">GPA 3.7/4.0 · Dean’s List</p>
             </div>
           </div>
         </div>
@@ -123,15 +124,29 @@
               <div class="timeline-marker" aria-hidden="true"></div>
               <div class="timeline-body">
                 <div class="timeline-top">
+                  <h3 class="timeline-role">Full Stack Developer Intern</h3>
+                  <span class="timeline-org">ZobeLab</span>
+                  <span class="timeline-when mono">Jan 2026 - May 2026</span>
+                  <span class="timeline-where">Remote</span>
+                </div>
+                <ul class="timeline-bullets">
+                  <li>Enhanced frontend quality by refining React UI components, improving visual consistency, and validating end-to-end user flows across multiple release cycles.</li>
+                  <li>Strengthened platform reliability by testing new features, reporting bugs with clear reproduction steps, and supporting community operations through Discord-based user feedback and issue triage.</li>
+                </ul>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <div class="timeline-marker" aria-hidden="true"></div>
+              <div class="timeline-body">
+                <div class="timeline-top">
                   <h3 class="timeline-role">AI/ML Intern</h3>
                   <span class="timeline-org">Outamation</span>
                   <span class="timeline-when mono">Jun 2025 - Aug 2025</span>
                   <span class="timeline-where">Remote</span>
                 </div>
                 <ul class="timeline-bullets">
-                  <li>Built document-processing flows in Python using LLM APIs and REST services to classify, extract, and summarize 50+ document batches.</li>
-                  <li>Reproduced extraction failures, tuned preprocessing and prompts, and improved accuracy 10-20% on recurring production errors.</li>
-                  <li>Automated preprocessing and validation for mixed-format uploads, cutting manual review time 15-25%.</li>
+                  <li>Built Python pipelines using LLM APIs to automate document classification and data extraction, improve PDF/image ingestion workflows, and reduce manual review.</li>
+                  <li>Improved preprocessing and validation logic to increase reliability and catch invalid inputs earlier in the pipeline.</li>
                 </ul>
               </div>
             </li>
@@ -145,9 +160,21 @@
                   <span class="timeline-where">Remote</span>
                 </div>
                 <ul class="timeline-bullets">
-                  <li>Designed and shipped 2 full-stack applications with React, Node.js, and Express using REST APIs and JWT/session auth.</li>
-                  <li>Refactored front ends to reduce load time ~40% on key user views.</li>
-                  <li>Scoped releases with clients and documented APIs and deployments for handoffs.</li>
+                  <li>Built full-stack applications using React, Node.js, and Express; designed stateless REST APIs and reduced hotspot PostgreSQL latency by approximately 25% through indexing and query rework.</li>
+                </ul>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <div class="timeline-marker" aria-hidden="true"></div>
+              <div class="timeline-body">
+                <div class="timeline-top">
+                  <h3 class="timeline-role">IT Support Technician</h3>
+                  <span class="timeline-org">Penn State University IT Department</span>
+                  <span class="timeline-when mono">Sep 2023 - May 2024</span>
+                  <span class="timeline-where">Media, PA</span>
+                </div>
+                <ul class="timeline-bullets">
+                  <li>Provided technical support by troubleshooting hardware and software issues, resolving student and faculty tickets, and improving workstation reliability across campus.</li>
                 </ul>
               </div>
             </li>
@@ -172,11 +199,11 @@
                 </header>
                 <p class="project-role">solo</p>
                 <p class="project-stack mono">Expo · React Native · TypeScript · Supabase · PostgreSQL</p>
-                <p class="project-desc">Basketball court discovery app backed by Postgres/Supabase, with personalized features and realtime chat tied to courts and groups.</p>
+                <p class="project-desc">React Native court discovery backed by Supabase and PostgreSQL, with authenticated users and realtime chat keyed to courts and groups.</p>
                 <ul class="project-highlights">
-                  <li>60k+ court locations surfaced through Supabase-backed data layer</li>
-                  <li>Supabase Auth and row-level security for user data isolation</li>
-                  <li>Supabase Realtime for direct messages, groups, and court-based threads</li>
+                  <li>60k+ basketball court locations served from PostgreSQL through Supabase</li>
+                  <li>Auth and row-level security to protect profiles and chat data</li>
+                  <li>Realtime messaging for direct, group, and court-based threads with durable chat history in Postgres</li>
                 </ul>
                 <footer class="project-links">
                   <a href="https://github.com/Nvafeomo/RimRun" target="_blank" rel="noopener noreferrer">Source</a>
@@ -186,16 +213,16 @@
 
               <article class="project-card">
                 <header class="project-card-head">
-                  <h3 class="project-name">Customer Profile Portal</h3>
-                  <span class="project-dates mono">Feb 2025 - Jun 2025</span>
+                  <h3 class="project-name">Healthcare Workflow System</h3>
+                  <span class="project-dates mono">Mar 2026 - May 2026</span>
                 </header>
                 <p class="project-role">solo</p>
-                <p class="project-stack mono">Spring Boot · Spring Security · PostgreSQL · Docker · React · AWS</p>
-                <p class="project-desc">Customer profile portal with Spring Boot REST APIs and a React SPA for authenticated account and profile workflows.</p>
+                <p class="project-stack mono">Spring Boot · Java · PostgreSQL · REST · Docker · Spring Cloud Gateway · Kafka · gRPC</p>
+                <p class="project-desc">Microservices for patient-centric workflows with strict data validation and coordinated async communication.</p>
                 <ul class="project-highlights">
-                  <li>JWT-backed auth alongside validation and centralized error handling</li>
-                  <li>Dual JDBC/JPA persistence targeting PostgreSQL</li>
-                  <li>Docker Compose for API, DB, and UI containers; CI/CD and S3 uploads for profile images</li>
+                  <li>Validated REST APIs with JPA/Hibernate persistence and relational constraints across patient records</li>
+                  <li>Onboarding flows using gRPC and Kafka for asynchronous messaging between services</li>
+                  <li>Spring Cloud Gateway with JWT filters securing traffic across five microservices</li>
                 </ul>
                 <footer class="project-links">
                   <p class="project-links-note">Course deliverable (no public demo link).</p>
@@ -204,19 +231,37 @@
 
               <article class="project-card">
                 <header class="project-card-head">
-                  <h3 class="project-name">Patient Management Microservices</h3>
-                  <span class="project-dates mono">Mar 2026 - May 2026</span>
+                  <h3 class="project-name">Identity Management Service</h3>
+                  <span class="project-dates mono">Sep 2025 - Dec 2025</span>
                 </header>
                 <p class="project-role">solo</p>
-                <p class="project-stack mono">Spring Boot · Java · PostgreSQL · REST · Docker · Spring Cloud Gateway · Kafka · gRPC</p>
-                <p class="project-desc">Microservice-style patient domain with REST APIs and async flows between billing-related services.</p>
+                <p class="project-stack mono">Spring Boot · Spring Security · PostgreSQL · Docker · React · AWS · GitHub Actions</p>
+                <p class="project-desc">Profile management workflows with JWT-secured Spring Boot APIs, containerized deployments, and cloud-backed file storage.</p>
                 <ul class="project-highlights">
-                  <li>Swagger-documented endpoints with Hibernate/JPA uniqueness constraints</li>
-                  <li>Onboarding workflows using gRPC to billing plus Kafka-backed async events</li>
-                  <li>Spring Cloud Gateway with JWT filter validating traffic against the auth service</li>
+                  <li>REST APIs with JWT authentication and JPA-backed profile persistence</li>
+                  <li>Docker Compose for consistent API, database, and React UI rollout locally</li>
+                  <li>AWS S3 integration for uploads plus GitHub Actions workflows for automated build and test</li>
                 </ul>
                 <footer class="project-links">
                   <p class="project-links-note">Course deliverable (no public demo link).</p>
+                </footer>
+              </article>
+
+              <article class="project-card">
+                <header class="project-card-head">
+                  <h3 class="project-name">Workspace Management</h3>
+                  <span class="project-dates mono">Jan 2026 - May 2026</span>
+                </header>
+                <p class="project-role">team</p>
+                <p class="project-stack mono">React · TypeScript · Tailwind CSS · Vite · Supabase · PostgreSQL</p>
+                <p class="project-desc">Agile team capstone workspace platform highlighting lab adoption and PSU Student Engagement Expo recognition.</p>
+                <ul class="project-highlights">
+                  <li>Led a 5-person Agile team shipping a workspace management platform adopted in university lab environments</li>
+                  <li>PSU Student Engagement Expo winner for the project’s impact and engagement</li>
+                </ul>
+                <footer class="project-links">
+                  <a href="https://github.com/Nvafeomo/Workspace-Management-Capstone" target="_blank" rel="noopener noreferrer">Source</a>
+                  <a href="https://workspace-management-capstone-a7gjq0fnj-nvafeomos-projects.vercel.app/login" target="_blank" rel="noopener noreferrer">Live</a>
                 </footer>
               </article>
             </div>
@@ -225,25 +270,6 @@
           <div class="projects-subsection">
             <h3 class="projects-subtitle">Additional projects</h3>
             <div class="project-grid">
-              <article class="project-card">
-                <header class="project-card-head">
-                  <h3 class="project-name">Workspace Management</h3>
-                  <span class="project-dates mono">Jan 2026 - May 2026</span>
-                </header>
-                <p class="project-role">team</p>
-                <p class="project-stack mono">React · TypeScript · Tailwind CSS · Vite · Supabase · PostgreSQL</p>
-                <p class="project-desc">5-person Agile capstone for a database course built as a workspace management app. I concentrated on the browser UI, wired to Supabase Auth and Postgres.</p>
-                <ul class="project-highlights">
-                  <li>Login flows, dashboards, and workspace screens with responsive layouts</li>
-                  <li>Type-safe UI in React + TypeScript + Tailwind CSS with Vite for fast iteration</li>
-                  <li>Integrated views with Supabase Auth and Postgres-backed data modeled for the course</li>
-                </ul>
-                <footer class="project-links">
-                  <a href="https://github.com/Nvafeomo/Workspace-Management-Capstone" target="_blank" rel="noopener noreferrer">Source</a>
-                  <a href="https://workspace-management-capstone-a7gjq0fnj-nvafeomos-projects.vercel.app/login" target="_blank" rel="noopener noreferrer">Live</a>
-                </footer>
-              </article>
-
               <article class="project-card">
                 <header class="project-card-head">
                   <h3 class="project-name">Cell Lattice Telemetry Lab</h3>
@@ -316,11 +342,19 @@
             </div>
             <div class="skill-blob">
               <h3 class="mono">Frameworks / libraries</h3>
-              <p>React, React Native, Node.js, Express, TailwindCSS, Supabase</p>
+              <p>Spring Boot, React, React Native, Node.js, Express, TailwindCSS</p>
+            </div>
+            <div class="skill-blob">
+              <h3 class="mono">Backend / APIs</h3>
+              <p>REST APIs, JPA/Hibernate, microservices, gRPC, Kafka</p>
+            </div>
+            <div class="skill-blob">
+              <h3 class="mono">Databases / cloud</h3>
+              <p>PostgreSQL, Supabase, AWS (EC2, Lambda, S3, IAM)</p>
             </div>
             <div class="skill-blob">
               <h3 class="mono">DevOps / tools</h3>
-              <p>Docker, Git, CI/CD, Linux, PostgreSQL, REST APIs, Agile/Scrum, Maven, Kafka</p>
+              <p>Docker, Docker Compose, GitHub Actions, Git, Maven, Linux (Ubuntu)</p>
             </div>
           </div>
         </div>
