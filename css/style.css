@@ -637,15 +637,6 @@ main {
   color: var(--text);
 }
 
-.project-links-note {
-  margin: 0;
-  padding: 0;
-  font-size: 0.85rem;
-  font-weight: 500;
-  color: var(--text-muted);
-  line-height: 1.45;
-}
-
 .project-grid {
   display: grid;
   gap: 1.25rem;
