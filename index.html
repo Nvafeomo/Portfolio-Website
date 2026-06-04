@@ -55,7 +55,7 @@
               </div>
               <div>
                 <dt class="mono">Graduation</dt>
-                <dd>B.S. Aug 2026 · M.S. May 2028 (expected)</dd>
+                <dd>B.S. Aug 2026 · M.S.E. May 2028 (expected)</dd>
               </div>
               <div>
                 <dt class="mono">Focus</dt>
@@ -105,9 +105,9 @@
             <div class="about-card">
               <h3 class="about-card-title mono">Education</h3>
               <p class="about-card-strong">Pennsylvania State University</p>
-              <p>M.S. Computer Science (expected May 2028) · Malvern, PA</p>
-              <p>B.S. Computer Science · Minor Mathematics (early grad Aug 2026) · Media, PA</p>
-              <p class="about-card-meta">GPA 3.7/4.0 · Dean’s List</p>
+              <p>M.S.E. Software Engineering (Aug 2026 – May 2028)</p>
+              <p>B.S. Computer Science · Minor Mathematics (early grad Aug 2026)</p>
+              <p class="about-card-meta">GPA 3.7/4.0 · Dean’s List · NSBE · PSU Hackathon Finalist (2x) · Student Expo Winner</p>
             </div>
           </div>
         </div>
@@ -125,13 +125,13 @@
               <div class="timeline-body">
                 <div class="timeline-top">
                   <h3 class="timeline-role">Full Stack Developer Intern</h3>
-                  <span class="timeline-org">ZobeLab</span>
+                  <span class="timeline-org">ZobeLab (Startup)</span>
                   <span class="timeline-when mono">Jan 2026 - May 2026</span>
                   <span class="timeline-where">Remote</span>
                 </div>
                 <ul class="timeline-bullets">
-                  <li>Enhanced frontend quality by refining React UI components, improving visual consistency, and validating end-to-end user flows across multiple release cycles.</li>
-                  <li>Strengthened platform reliability by testing new features, reporting bugs with clear reproduction steps, and supporting community operations through Discord-based user feedback and issue triage.</li>
+                  <li>Refactored a shared React component library used across 5+ product pages, standardizing UI patterns, reducing layout regressions, and improving cross-browser consistency.</li>
+                  <li>Diagnosed and resolved backend bugs across multiple release cycles, collaborating with engineers to validate fixes and maintain deployment stability.</li>
                 </ul>
               </div>
             </li>
@@ -145,8 +145,7 @@
                   <span class="timeline-where">Remote</span>
                 </div>
                 <ul class="timeline-bullets">
-                  <li>Built Python pipelines using LLM APIs to automate document classification and data extraction, improve PDF/image ingestion workflows, and reduce manual review.</li>
-                  <li>Improved preprocessing and validation logic to increase reliability and catch invalid inputs earlier in the pipeline.</li>
+                  <li>Built Python pipelines using LLM APIs to automate document classification and data extraction, improving PDF/image ingestion workflows and reducing manual review.</li>
                 </ul>
               </div>
             </li>
@@ -160,21 +159,7 @@
                   <span class="timeline-where">Remote</span>
                 </div>
                 <ul class="timeline-bullets">
-                  <li>Built full-stack applications using React, Node.js, and Express; designed stateless REST APIs and reduced hotspot PostgreSQL latency by approximately 25% through indexing and query rework.</li>
-                </ul>
-              </div>
-            </li>
-            <li class="timeline-item">
-              <div class="timeline-marker" aria-hidden="true"></div>
-              <div class="timeline-body">
-                <div class="timeline-top">
-                  <h3 class="timeline-role">IT Support Technician</h3>
-                  <span class="timeline-org">Penn State University IT Department</span>
-                  <span class="timeline-when mono">Sep 2023 - May 2024</span>
-                  <span class="timeline-where">Media, PA</span>
-                </div>
-                <ul class="timeline-bullets">
-                  <li>Provided technical support by troubleshooting hardware and software issues, resolving student and faculty tickets, and improving workstation reliability across campus.</li>
+                  <li>Built and deployed full-stack client applications using React, Node.js, and Express; optimized critical PostgreSQL queries through targeted indexing and query rewrites, cutting hotspot latency by ~25%.</li>
                 </ul>
               </div>
             </li>
@@ -194,23 +179,75 @@
             <div class="project-grid">
               <article class="project-card">
                 <header class="project-card-head">
-                  <h3 class="project-name">RimRun</h3>
-                  <span class="project-dates mono">Jan 2026 - Present</span>
+                  <h3 class="project-name">Jali</h3>
+                  <span class="project-dates mono">Feb 2026 - Present</span>
                 </header>
                 <p class="project-role">solo</p>
-                <p class="project-stack mono">Expo · React Native · TypeScript · Supabase · PostgreSQL</p>
-                <p class="project-desc">React Native court discovery backed by Supabase and PostgreSQL, with authenticated users and realtime chat keyed to courts and groups.</p>
+                <p class="project-stack mono">Java · Spring Boot · Neo4j · PostgreSQL · GraphQL · Spring Security · Docker</p>
+                <p class="project-desc">Family history platform modeling lineage as a graph with AI-assisted ingestion from oral histories.</p>
                 <ul class="project-highlights">
-                  <li>60k+ basketball court locations served from PostgreSQL through Supabase</li>
-                  <li>Auth and row-level security to protect profiles and chat data</li>
-                  <li>Realtime messaging for direct, group, and court-based threads with durable chat history in Postgres</li>
+                  <li>Neo4j graph model supporting lineage traversal across 50k+ person nodes and relationship edges</li>
+                  <li>GraphQL API consolidating relationship traversals into a single typed query, cutting client fetch calls by ~80%</li>
+                  <li>AI pipeline with OpenAI Whisper and Claude API to transcribe and structure oral histories into records</li>
+                </ul>
+              </article>
+
+              <article class="project-card">
+                <header class="project-card-head">
+                  <h3 class="project-name">Pulse</h3>
+                  <span class="project-dates mono">Jun 2026 - Present</span>
+                </header>
+                <p class="project-role">solo</p>
+                <p class="project-stack mono">Java · Spring Boot · AWS SNS · SQS · SES · ECS · Redis · PostgreSQL · Docker</p>
+                <p class="project-desc">Event-driven notification platform for multi-channel delivery with idempotent queue processing and automated cloud deploys.</p>
+                <ul class="project-highlights">
+                  <li>AWS SNS fan-out and SQS queues processing 1,000+ test notifications across email, SMS, and push channels</li>
+                  <li>Idempotent SQS processing via Redis to suppress duplicate deliveries</li>
+                  <li>GitHub Actions, Docker, and ECS Fargate for repeatable releases and integration-tested deployments</li>
+                </ul>
+              </article>
+
+              <article class="project-card">
+                <header class="project-card-head">
+                  <h3 class="project-name">RimRun</h3>
+                  <span class="project-dates mono">Sep 2025 - Jan 2026</span>
+                </header>
+                <p class="project-role">solo</p>
+                <p class="project-stack mono">Expo · React Native · TypeScript · Supabase · PostgreSQL · PostGIS</p>
+                <p class="project-desc">React Native court discovery app serving 60k+ basketball court locations from PostgreSQL via Supabase.</p>
+                <ul class="project-highlights">
+                  <li>60k+ court locations served from PostgreSQL through Supabase</li>
+                  <li>Cut court search latency from ~950ms to ~375ms by migrating the radius RPC to PostGIS and indexing geography</li>
                 </ul>
                 <footer class="project-links">
-                  <a href="https://github.com/Nvafeomo/RimRun" target="_blank" rel="noopener noreferrer">Source</a>
+                  <!-- <a href="https://github.com/Nvafeomo/RimRun" target="_blank" rel="noopener noreferrer">Source</a> -->
                   <a href="https://nvafeomo.github.io/RimRun/Demo/Screenshots/demo.html" target="_blank" rel="noopener noreferrer">Demo</a>
                 </footer>
               </article>
 
+              <article class="project-card">
+                <header class="project-card-head">
+                  <h3 class="project-name">Workspace Management</h3>
+                  <span class="project-dates mono">Jan 2026 - Mar 2026</span>
+                </header>
+                <p class="project-role">team</p>
+                <p class="project-stack mono">React · TypeScript · Tailwind CSS · Vite · Supabase · PostgreSQL</p>
+                <p class="project-desc">Agile team workspace reservation platform with real-time availability, adopted across university labs.</p>
+                <ul class="project-highlights">
+                  <li>Led a 5-person Agile team building a reservation platform with real-time availability</li>
+                  <li>PSU Student Engagement Expo winner; adopted for daily scheduling in university labs</li>
+                </ul>
+                <footer class="project-links">
+                  <!-- <a href="https://github.com/Nvafeomo/Workspace-Management-Capstone" target="_blank" rel="noopener noreferrer">Source</a> -->
+                  <!-- <a href="https://workspace-management-capstone-a7gjq0fnj-nvafeomos-projects.vercel.app/login" target="_blank" rel="noopener noreferrer">Live</a> -->
+                </footer>
+              </article>
+            </div>
+          </div>
+
+          <div class="projects-subsection">
+            <h3 class="projects-subtitle">Additional projects</h3>
+            <div class="project-grid">
               <article class="project-card">
                 <header class="project-card-head">
                   <h3 class="project-name">Healthcare Workflow System</h3>
@@ -243,29 +280,6 @@
 
               <article class="project-card">
                 <header class="project-card-head">
-                  <h3 class="project-name">Workspace Management</h3>
-                  <span class="project-dates mono">Jan 2026 - May 2026</span>
-                </header>
-                <p class="project-role">team</p>
-                <p class="project-stack mono">React · TypeScript · Tailwind CSS · Vite · Supabase · PostgreSQL</p>
-                <p class="project-desc">Agile team capstone workspace platform highlighting lab adoption and PSU Student Engagement Expo recognition.</p>
-                <ul class="project-highlights">
-                  <li>Led a 5-person Agile team shipping a workspace management platform adopted in university lab environments</li>
-                  <li>PSU Student Engagement Expo winner for the project’s impact and engagement</li>
-                </ul>
-                <footer class="project-links">
-                  <a href="https://github.com/Nvafeomo/Workspace-Management-Capstone" target="_blank" rel="noopener noreferrer">Source</a>
-                  <a href="https://workspace-management-capstone-a7gjq0fnj-nvafeomos-projects.vercel.app/login" target="_blank" rel="noopener noreferrer">Live</a>
-                </footer>
-              </article>
-            </div>
-          </div>
-
-          <div class="projects-subsection">
-            <h3 class="projects-subtitle">Additional projects</h3>
-            <div class="project-grid">
-              <article class="project-card">
-                <header class="project-card-head">
                   <h3 class="project-name">Cell Lattice Telemetry Lab</h3>
                   <span class="project-dates mono">May 2026</span>
                 </header>
@@ -277,8 +291,8 @@
                   <li>Interactive lattice + dense &quot;next to hardware&quot; UI</li>
                 </ul>
                 <footer class="project-links">
-                  <a href="https://github.com/Nvafeomo/Cell-Lattice-Telemetry-Lab" target="_blank" rel="noopener noreferrer">Source</a>
-                  <a href="https://github.com/Nvafeomo/Cell-Lattice-Telemetry-Lab/blob/main/README.md" target="_blank" rel="noopener noreferrer">README</a>
+                  <!-- <a href="https://github.com/Nvafeomo/Cell-Lattice-Telemetry-Lab" target="_blank" rel="noopener noreferrer">Source</a> -->
+                  <!-- <a href="https://github.com/Nvafeomo/Cell-Lattice-Telemetry-Lab/blob/main/README.md" target="_blank" rel="noopener noreferrer">README</a> -->
                   <a href="https://cell-lattice-telemetry-lab.vercel.app/" target="_blank" rel="noopener noreferrer">Live</a>
                 </footer>
               </article>
@@ -296,7 +310,7 @@
                   <li>SQLAlchemy + PostgreSQL persistence</li>
                 </ul>
                 <footer class="project-links">
-                  <a href="https://github.com/Nvafeomo/LeetHelper" target="_blank" rel="noopener noreferrer">Source</a>
+                  <!-- <a href="https://github.com/Nvafeomo/LeetHelper" target="_blank" rel="noopener noreferrer">Source</a> -->
                   <a href="https://leethelper-fo7m.onrender.com" target="_blank" rel="noopener noreferrer">Live</a>
                 </footer>
               </article>
@@ -314,7 +328,7 @@
                   <li>Docker Compose one-command local runs</li>
                 </ul>
                 <footer class="project-links">
-                  <a href="https://github.com/Nvafeomo/Chat-Application" target="_blank" rel="noopener noreferrer">Source</a>
+                  <!-- <a href="https://github.com/Nvafeomo/Chat-Application" target="_blank" rel="noopener noreferrer">Source</a> -->
                   <a href="https://nvafeomo.github.io/Chat-Application/demo.html" target="_blank" rel="noopener noreferrer">Demo</a>
                 </footer>
               </article>
@@ -332,23 +346,23 @@
           <div class="skills-blobs">
             <div class="skill-blob">
               <h3 class="mono">Languages</h3>
-              <p>Java, Python, JavaScript, TypeScript, SQL, HTML/CSS</p>
+              <p>Java, Python, JavaScript/TypeScript, SQL, HTML/CSS</p>
             </div>
             <div class="skill-blob">
-              <h3 class="mono">Frameworks / libraries</h3>
+              <h3 class="mono">Frameworks</h3>
               <p>Spring Boot, React, React Native, Node.js, Express, TailwindCSS</p>
             </div>
             <div class="skill-blob">
-              <h3 class="mono">Backend / APIs</h3>
-              <p>REST APIs, JPA/Hibernate, microservices, gRPC, Kafka</p>
+              <h3 class="mono">Backend</h3>
+              <p>REST APIs, JPA/Hibernate, Spring Security</p>
             </div>
             <div class="skill-blob">
-              <h3 class="mono">Databases / cloud</h3>
-              <p>PostgreSQL, Supabase, AWS (EC2, Lambda, S3, IAM)</p>
+              <h3 class="mono">Cloud &amp; databases</h3>
+              <p>PostgreSQL, Redis, Supabase, Neo4j, AWS (SNS, SQS, SES, ECS, ElastiCache)</p>
             </div>
             <div class="skill-blob">
-              <h3 class="mono">DevOps / tools</h3>
-              <p>Docker, Docker Compose, GitHub Actions, Git, Maven, Linux (Ubuntu)</p>
+              <h3 class="mono">DevOps &amp; tools</h3>
+              <p>Docker, GitHub Actions, Git, Maven, CI/CD</p>
             </div>
           </div>
         </div>
