@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Nvafeomo K. Konneh, Penn State CS: web and mobile through projects and freelance; LLM document pipelines at an AI/ML internship. Open to backend, full-stack, mobile, QA, and IT roles." />
+  <meta name="description" content="Nvafeomo K. Konneh, Penn State CS: web and mobile through projects and freelance; LLM document pipelines at an AI/ML internship. Open to backend, data engineering, full-stack, mobile, QA, and IT roles." />
   <title>Nvafeomo K. Konneh - Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -36,12 +36,12 @@
     <main id="top">
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-grid">
-          <p class="hero-kicker mono fade-in">Penn State CS · Backend · Full-stack · Mobile · QA · IT</p>
+          <p class="hero-kicker mono fade-in">Penn State CS · Backend · Data Engineering · Full-stack · Mobile · QA · IT</p>
           <h1 id="hero-title" class="hero-title fade-in delay-1">
             <span class="hero-name">Nvafeomo K. Konneh</span>
           </h1>
           <p class="hero-lede fade-in delay-2">
-            I’ve built <strong>web</strong> and <strong>mobile</strong> applications through <strong>personal projects</strong> and <strong>freelance</strong> work. At my AI/ML internship I worked on <strong>LLM document pipelines</strong> end to end. I’m open to <strong>backend</strong>, <strong>full-stack</strong>, <strong>mobile</strong>, <strong>QA</strong>, and <strong>IT</strong> internships and early-career roles.
+            I’ve built <strong>web</strong> and <strong>mobile</strong> applications through <strong>personal projects</strong> and <strong>freelance</strong> work. At my AI/ML internship I worked on <strong>LLM document pipelines</strong> end to end. I’m open to <strong>backend</strong>, <strong>data engineering</strong>, <strong>full-stack</strong>, <strong>mobile</strong>, <strong>QA</strong>, and <strong>IT</strong> internships and early-career roles.
           </p>
           <div class="hero-actions fade-in delay-3">
             <a class="btn btn-primary" href="#projects">View work</a>
@@ -55,11 +55,11 @@
               </div>
               <div>
                 <dt class="mono">Graduation</dt>
-                <dd>B.S. Aug 2026 · M.S.E. May 2028 (expected)</dd>
+                <dd>B.S. Aug 2026</dd>
               </div>
               <div>
-                <dt class="mono">Focus</dt>
-                <dd>Backend · Full-stack · Mobile · QA · IT</dd>
+                <dt class="mono">Interests</dt>
+                <dd>Backend · Full-stack · Mobile · Data Engineering · QA · IT</dd>
               </div>
             </dl>
           </aside>
@@ -78,7 +78,7 @@
                 CS student at Penn State. Through <strong>personal projects</strong> and <strong>freelance</strong>, I’ve shipped <strong>web</strong> and <strong>mobile</strong> applications end to end, from UI through APIs and data layers.
               </p>
               <p>
-                As an <strong>AI/ML intern</strong>, I worked on LLM-powered document pipelines from ingestion through evaluation. I’m open to internships and entry-level roles in <strong>backend</strong>, <strong>full-stack</strong>, <strong>mobile</strong>, <strong>QA</strong>, and <strong>IT</strong>, and I like teams where I can learn quickly while shipping real work.
+                As an <strong>AI/ML intern</strong>, I worked on LLM-powered document pipelines from ingestion through evaluation. I’m open to internships and entry-level roles in <strong>backend</strong>, <strong>data engineering</strong>, <strong>full-stack</strong>, <strong>mobile</strong>, <strong>QA</strong>, and <strong>IT</strong>, and I like teams where I can learn quickly while shipping real work.
               </p>
               <div class="about-personal">
                 <h3 class="about-personal-title" id="about-personal-heading">A bit about me</h3>
@@ -105,7 +105,6 @@
             <div class="about-card">
               <h3 class="about-card-title mono">Education</h3>
               <p class="about-card-strong">Pennsylvania State University</p>
-              <p>M.S.E. Software Engineering (Aug 2026 – May 2028)</p>
               <p>B.S. Computer Science · Minor Mathematics (early grad Aug 2026)</p>
               <p class="about-card-meta">GPA 3.7/4.0 · Dean’s List · NSBE · PSU Hackathon Finalist (2x) · Student Expo Winner</p>
             </div>
@@ -179,7 +178,7 @@
             <div class="project-grid">
               <article class="project-card">
                 <header class="project-card-head">
-                  <h3 class="project-name">Jali</h3>
+                  <h3 class="project-name">Njeli</h3>
                   <span class="project-dates mono">Feb 2026 - Present</span>
                 </header>
                 <p class="project-role">solo</p>
@@ -190,6 +189,9 @@
                   <li>GraphQL API consolidating relationship traversals into a single typed query, cutting client fetch calls by ~80%</li>
                   <li>AI pipeline with OpenAI Whisper and Claude API to transcribe and structure oral histories into records</li>
                 </ul>
+                <footer class="project-links">
+                  <a href="https://njeli.com" target="_blank" rel="noopener noreferrer">Live</a>
+                </footer>
               </article>
 
               <article class="project-card">
@@ -205,6 +207,24 @@
                   <li>Idempotent SQS processing via Redis to suppress duplicate deliveries</li>
                   <li>GitHub Actions, Docker, and ECS Fargate for repeatable releases and integration-tested deployments</li>
                 </ul>
+              </article>
+
+              <article class="project-card">
+                <header class="project-card-head">
+                  <h3 class="project-name">HealthFlow</h3>
+                  <span class="project-dates mono">Jun 2026</span>
+                </header>
+                <p class="project-role">solo</p>
+                <p class="project-stack mono">Python · Apache Airflow · Databricks · PySpark · PostgreSQL · Docker</p>
+                <p class="project-desc">ETL pipeline for weekly CDC mortality records, orchestrated with Airflow and transformed with PySpark on Databricks.</p>
+                <ul class="project-highlights">
+                  <li>Ingested 10,000+ weekly CDC mortality records via the Socrata REST API</li>
+                  <li>Triggered Databricks serverless PySpark jobs through the Jobs API with live run polling</li>
+                  <li>Designed idempotent PostgreSQL upserts on a composite unique key for safe re-runs without duplicate data</li>
+                </ul>
+                <footer class="project-links">
+                  <a href="https://github.com/Nvafeomo/HealthFlow" target="_blank" rel="noopener noreferrer">Code</a>
+                </footer>
               </article>
 
               <article class="project-card">
@@ -248,7 +268,7 @@
           <div class="projects-subsection">
             <h3 class="projects-subtitle">Additional projects</h3>
             <div class="project-grid">
-              <article class="project-card">
+              <!-- <article class="project-card">
                 <header class="project-card-head">
                   <h3 class="project-name">Healthcare Workflow System</h3>
                   <span class="project-dates mono">Mar 2026 - May 2026</span>
@@ -276,7 +296,7 @@
                   <li>Docker Compose for consistent API, database, and React UI rollout locally</li>
                   <li>AWS S3 integration for uploads plus GitHub Actions workflows for automated build and test</li>
                 </ul>
-              </article>
+              </article> -->
 
               <article class="project-card">
                 <header class="project-card-head">
@@ -375,7 +395,7 @@
             <h2 class="section-title">Contact</h2>
           </header>
           <p class="contact-lede">
-            Internships or early-career roles in backend, full-stack, mobile, QA, or IT: email me or use the form.
+            Internships or early-career roles in backend, data engineering, full-stack, mobile, QA, or IT: email me or use the form.
           </p>
           <div class="contact-chips">
             <a class="contact-chip" href="mailto:nvafeomo05@gmail.com">
