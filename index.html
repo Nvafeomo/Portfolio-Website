@@ -56,7 +56,7 @@
               </div>
               <div>
                 <dt class="mono">Graduation</dt>
-                <dd>B.S. Aug 2026 · MS May 2027 (expected)</dd>
+                <dd>B.S. Aug 2026 · M.S. May 2028 (expected)</dd>
               </div>
               <div>
                 <dt class="mono">Interests</dt>
@@ -106,9 +106,11 @@
             <div class="about-card">
               <h3 class="about-card-title mono">Education</h3>
               <p class="about-card-strong">Pennsylvania State University</p>
-              <p>MS Software Engineering (Aug 2026 – May 2027)</p>
-              <p>B.S. Computer Science · Minor Mathematics (early grad Aug 2026)</p>
-              <p class="about-card-meta">GPA 3.7/4.0 · Dean’s List · NSBE · PSU Hackathon Finalist (2x) · Student Expo Winner</p>
+              <p>M.S. in Computer Science (Aug 2026 – May 2028)</p>
+              <p>B.S. Computer Science · Minor Mathematics (Aug 2023 – Aug 2026, early grad)</p>
+              <p class="about-card-meta">GPA 3.7/4.0 · Dean’s List</p>
+              <p class="about-card-meta">Leadership: NSBE · Peer Programming Mentor · Computer Science TA</p>
+              <p class="about-card-meta">Achievements: PSU Hackathon Finalist (2x) · Student Expo Winner</p>
             </div>
           </div>
         </div>
@@ -131,8 +133,9 @@
                   <span class="timeline-where">Remote</span>
                 </div>
                 <ul class="timeline-bullets">
-                  <li>Engineered reusable React components across 5+ production pages, eliminating UI drift and accelerating a company-wide design system migration.</li>
-                  <li>Stabilized critical Python data-processing pipelines across 6 release cycles, preventing ingestion failures.</li>
+                  <li>Built FastAPI endpoints serving ZobeBot’s AI critique feedback and industry Q&amp;A to production users.</li>
+                  <li>Engineered reusable React components across 6+ production pages, accelerating a design system migration.</li>
+                  <li>Hardened Python pipelines with validation and monitoring, eliminating ingestion failures across 6 releases.</li>
                 </ul>
               </div>
             </li>
@@ -146,8 +149,9 @@
                   <span class="timeline-where">Remote</span>
                 </div>
                 <ul class="timeline-bullets">
-                  <li>Built Python pipelines using LLM APIs to automate document classification and data extraction, improving PDF/image ingestion workflows and reducing manual review by 30%.</li>
+                  <li>Built Python pipelines with LLM APIs to automate document classification and extraction, cutting manual review 20%.</li>
                   <li>Designed REST APIs for document upload, OCR processing, and metadata retrieval, supporting 10k+ daily requests.</li>
+                  <li>Built an evaluation harness benchmarking LLM extraction accuracy across document types, improving precision.</li>
                 </ul>
               </div>
             </li>
@@ -155,14 +159,14 @@
               <div class="timeline-marker" aria-hidden="true"></div>
               <div class="timeline-body">
                 <div class="timeline-top">
-                  <h3 class="timeline-role">Full-Stack Developer</h3>
-                  <span class="timeline-org">Independent Consulting</span>
-                  <span class="timeline-when mono">Nov 2025 - Feb 2026</span>
+                  <h3 class="timeline-role">Web Developer — Business Website</h3>
+                  <span class="timeline-org">Freelance Developer</span>
+                  <span class="timeline-when mono">Nov 2025 - Dec 2025</span>
                   <span class="timeline-where">Remote</span>
                 </div>
                 <ul class="timeline-bullets">
-                  <li>Optimized critical PostgreSQL queries through targeted indexing and query rewrites, reducing hotspot latency by ~25% across full-stack applications built with React, Node.js, and Express.</li>
-                  <li>Refactored backend services in Node.js/Express to improve throughput under load, reducing response times by 30ms.</li>
+                  <li>Built a business website with React, TypeScript, and FastAPI, serving 500+ monthly visitors via booking workflows.</li>
+                  <li>Improved website load performance ~15% via image optimization, caching, and CDN-backed static delivery.</li>
                 </ul>
               </div>
             </li>
@@ -182,52 +186,57 @@
             <div class="project-grid">
               <article class="project-card">
                 <header class="project-card-head">
-                  <h3 class="project-name">Njeli</h3>
-                  <span class="project-dates mono">Feb 2026 - Present</span>
+                  <h3 class="project-name">Pulse</h3>
+                  <span class="project-dates mono">Mar 2026 - Present</span>
                 </header>
                 <p class="project-role">solo</p>
-                <p class="project-stack mono">Java · Spring Boot · Neo4j · PostgreSQL · GraphQL · Spring Security · Docker</p>
-                <p class="project-desc">Family history platform modeling lineage as a graph with AI-assisted ingestion from oral histories.</p>
+                <p class="project-stack mono">Java · Python · Spring Boot · Terraform · AWS · Redis · Docker · GitHub Actions</p>
+                <p class="project-desc">Event-driven notification platform with AWS SNS and Spring Boot, processing 1,000+ notifications/min.</p>
                 <ul class="project-highlights">
-                  <li>Neo4j graph model supporting lineage traversal across 50k+ person nodes and relationship edges</li>
-                  <li>GraphQL API consolidating relationship traversals into a single typed query, cutting client fetch calls by ~80%</li>
-                  <li>AI pipeline with OpenAI Whisper and Claude API to transcribe and structure oral histories into records</li>
+                  <li>Built a serverless AWS Lambda consumer in Python, using Redis idempotency for effectively-once SQS processing</li>
+                  <li>Provisioned fault-tolerant ECS Fargate with Terraform, enabling zero-downtime releases via GitHub Actions</li>
+                  <li>Achieved 85% coverage on job creation logic with JUnit/Mockito, mocking the repository and SNS publisher</li>
                 </ul>
                 <footer class="project-links">
-                  <a href="https://njeli.com" target="_blank" rel="noopener noreferrer">Live</a>
+                  <a href="https://github.com/Nvafeomo/Pulse" target="_blank" rel="noopener noreferrer">Code</a>
                 </footer>
               </article>
 
               <article class="project-card">
                 <header class="project-card-head">
-                  <h3 class="project-name">Pulse</h3>
-                  <span class="project-dates mono">Jun 2026 - Present</span>
+                  <h3 class="project-name">VaultWatch</h3>
+                  <span class="project-dates mono">Apr 2026 - Present</span>
                 </header>
                 <p class="project-role">solo</p>
-                <p class="project-stack mono">Java · Spring Boot · AWS SNS · SQS · SES · ECS · Redis · PostgreSQL · Docker</p>
-                <p class="project-desc">Event-driven notification platform for multi-channel delivery with idempotent queue processing and automated cloud deploys.</p>
+                <p class="project-stack mono">Solidity · Hardhat · Ethers.js · TypeScript · PostgreSQL · AWS SNS · Lambda</p>
+                <p class="project-desc">On-chain vault monitoring with anomaly detection and real-time alerting via Pulse’s AWS pipeline.</p>
                 <ul class="project-highlights">
-                  <li>AWS SNS fan-out and SQS queues processing 1,000+ test notifications across email, SMS, and push channels</li>
-                  <li>Idempotent SQS processing via Redis to suppress duplicate deliveries</li>
-                  <li>GitHub Actions, Docker, and ECS Fargate for repeatable releases and integration-tested deployments</li>
+                  <li>Engineered a Solidity vault contract with withdrawal limits and time-locks, deployed and verified on Sepolia testnet</li>
+                  <li>Built a TypeScript/Ethers.js indexer streaming on-chain deposit and withdrawal events into PostgreSQL for real-time analysis</li>
+                  <li>Designed velocity and large-transfer heuristics to flag anomalous withdrawals before funds could leave the vault</li>
+                  <li>Extended Pulse’s AWS SNS/Lambda alerting pipeline to notify on flagged on-chain activity in near real-time</li>
                 </ul>
+                <footer class="project-links">
+                  <a href="https://github.com/Nvafeomo/VaultWatch" target="_blank" rel="noopener noreferrer">Code</a>
+                </footer>
               </article>
 
               <article class="project-card">
                 <header class="project-card-head">
-                  <h3 class="project-name">HealthFlow</h3>
-                  <span class="project-dates mono">Jun 2026</span>
+                  <h3 class="project-name">Njeli</h3>
+                  <span class="project-dates mono">Dec 2025 - Mar 2026</span>
                 </header>
                 <p class="project-role">solo</p>
-                <p class="project-stack mono">Python · Apache Airflow · Databricks · PySpark · PostgreSQL · Docker</p>
-                <p class="project-desc">ETL pipeline for weekly CDC mortality records, orchestrated with Airflow and transformed with PySpark on Databricks.</p>
+                <p class="project-stack mono">Java · Spring Boot · React · Neo4j · GraphQL · Docker · AWS</p>
+                <p class="project-desc">Genealogy platform deployed on AWS ECS, containerizing Spring Boot and Neo4j for 3,000+ person family trees.</p>
                 <ul class="project-highlights">
-                  <li>Ingested 10,000+ weekly CDC mortality records via the Socrata REST API</li>
-                  <li>Triggered Databricks serverless PySpark jobs through the Jobs API with live run polling</li>
-                  <li>Designed idempotent PostgreSQL upserts on a composite unique key for safe re-runs without duplicate data</li>
+                  <li>Built a GraphQL API over Neo4j, resolving nested family relationships in a single graph traversal per query</li>
+                  <li>Engineered an audio pipeline with Whisper and Claude API to preserve oral family stories and extract relationships</li>
+                  <li>Secured family tree access with JWT authentication and invite-token-based, tree-level permissions</li>
                 </ul>
                 <footer class="project-links">
-                  <a href="https://github.com/Nvafeomo/HealthFlow" target="_blank" rel="noopener noreferrer">Code</a>
+                  <a href="https://njeli.com/" target="_blank" rel="noopener noreferrer">Website</a>
+                  <a href="https://youtu.be/BQgEFde7LBA" target="_blank" rel="noopener noreferrer">Demo</a>
                 </footer>
               </article>
 
@@ -237,33 +246,34 @@
                   <span class="project-dates mono">Sep 2025 - Jan 2026</span>
                 </header>
                 <p class="project-role">solo</p>
-                <p class="project-stack mono">Expo · React Native · TypeScript · Supabase · PostgreSQL · PostGIS</p>
-                <p class="project-desc">React Native court discovery app serving 60k+ basketball court locations from PostgreSQL via Supabase.</p>
+                <p class="project-stack mono">Expo · React Native · TypeScript · Supabase · PostgreSQL</p>
+                <p class="project-desc">React Native app serving 60k+ basketball court locations with instant discovery via geospatial queries.</p>
                 <ul class="project-highlights">
-                  <li>60k+ court locations served from PostgreSQL through Supabase</li>
-                  <li>Cut court search latency from ~950ms to ~375ms by migrating the radius RPC to PostGIS and indexing geography</li>
+                  <li>Reduced court search latency from ~950ms to ~375ms by migrating from RPC to PostGIS and indexing geography</li>
+                  <li>Enforced authorization and abuse prevention via Postgres RLS and atomic rate-limiting across 25+ migrations</li>
+                  <li>Deployed Sentry monitoring, cutting crash detection from days to real-time via automated alerting</li>
                 </ul>
                 <footer class="project-links">
-                  <!-- <a href="https://github.com/Nvafeomo/RimRun" target="_blank" rel="noopener noreferrer">Source</a> -->
                   <a href="https://nvafeomo.github.io/RimRun/Demo/Screenshots/demo.html" target="_blank" rel="noopener noreferrer">Demo</a>
+                  <a href="https://apps.apple.com/us/app/rimrun/id6775095534" target="_blank" rel="noopener noreferrer">App Store</a>
                 </footer>
               </article>
 
               <article class="project-card">
                 <header class="project-card-head">
-                  <h3 class="project-name">Workspace Management</h3>
+                  <h3 class="project-name">Campus Spaces</h3>
                   <span class="project-dates mono">Jan 2026 - Mar 2026</span>
                 </header>
                 <p class="project-role">team</p>
-                <p class="project-stack mono">React · TypeScript · Tailwind CSS · Vite · Supabase · PostgreSQL</p>
-                <p class="project-desc">Agile team workspace reservation platform with real-time availability, adopted across university labs.</p>
+                <p class="project-stack mono">React · TypeScript · Terraform · AWS · Supabase · PostgreSQL</p>
+                <p class="project-desc">Lab management platform with PostgreSQL row-level locking to prevent double-bookings across university labs.</p>
                 <ul class="project-highlights">
-                  <li>Led a 5-person Agile team building a reservation platform with real-time availability</li>
-                  <li>PSU Student Engagement Expo winner; adopted for daily scheduling in university labs</li>
+                  <li>Automated stale-reservation cleanup via a Terraform-provisioned AWS EventBridge + Lambda scheduled job</li>
+                  <li>Achieved 85% coverage on booking logic with Vitest/React Testing Library, validating concurrency and edge cases</li>
+                  <li>Enforced role-based access via Supabase Auth policies, restricting reservation overrides to lab administrators</li>
                 </ul>
                 <footer class="project-links">
-                  <!-- <a href="https://github.com/Nvafeomo/Workspace-Management-Capstone" target="_blank" rel="noopener noreferrer">Source</a> -->
-                  <a href="https://workspace-management-capstone.vercel.app/login" target="_blank" rel="noopener noreferrer">Live</a>
+                  <a href="https://workspace-management-capstone.vercel.app/login" target="_blank" rel="noopener noreferrer">Website</a>
                 </footer>
               </article>
             </div>
@@ -301,6 +311,24 @@
                   <li>AWS S3 integration for uploads plus GitHub Actions workflows for automated build and test</li>
                 </ul>
               </article> -->
+
+              <article class="project-card">
+                <header class="project-card-head">
+                  <h3 class="project-name">HealthFlow</h3>
+                  <span class="project-dates mono">Jun 2026</span>
+                </header>
+                <p class="project-role">solo</p>
+                <p class="project-stack mono">Python · Apache Airflow · Databricks · PySpark · PostgreSQL · Docker</p>
+                <p class="project-desc">ETL pipeline for weekly CDC mortality records, orchestrated with Airflow and transformed with PySpark on Databricks.</p>
+                <ul class="project-highlights">
+                  <li>Ingested 10,000+ weekly CDC mortality records via the Socrata REST API</li>
+                  <li>Triggered Databricks serverless PySpark jobs through the Jobs API with live run polling</li>
+                  <li>Designed idempotent PostgreSQL upserts on a composite unique key for safe re-runs without duplicate data</li>
+                </ul>
+                <footer class="project-links">
+                  <a href="https://github.com/Nvafeomo/HealthFlow" target="_blank" rel="noopener noreferrer">Code</a>
+                </footer>
+              </article>
 
               <article class="project-card">
                 <header class="project-card-head">
@@ -370,23 +398,27 @@
           <div class="skills-blobs">
             <div class="skill-blob">
               <h3 class="mono">Languages</h3>
-              <p>Java, Python, JavaScript/TypeScript, SQL, HTML/CSS</p>
+              <p>Java, Python, JavaScript/TypeScript, Solidity, SQL, HTML/CSS</p>
             </div>
             <div class="skill-blob">
               <h3 class="mono">Frameworks</h3>
-              <p>Spring Boot, React, React Native, Node.js, Express, TailwindCSS</p>
+              <p>Spring Boot, React, React Native, FastAPI, Angular</p>
             </div>
             <div class="skill-blob">
               <h3 class="mono">Backend</h3>
-              <p>REST APIs, JPA/Hibernate, Spring Security</p>
+              <p>REST APIs, GraphQL, Event-Driven, LLM APIs, JUnit/Mockito, Jasmine/Karma</p>
             </div>
             <div class="skill-blob">
               <h3 class="mono">Cloud &amp; databases</h3>
-              <p>PostgreSQL, Redis, Supabase, Neo4j, AWS (SNS, SQS, SES, ECS, ElastiCache)</p>
+              <p>PostgreSQL, Redis, Neo4j, Supabase, AWS (Lambda, SNS, SQS, S3, ECS)</p>
+            </div>
+            <div class="skill-blob">
+              <h3 class="mono">Blockchain</h3>
+              <p>Solidity, Hardhat, Ethers.js, Sepolia/Ethereum testnets</p>
             </div>
             <div class="skill-blob">
               <h3 class="mono">DevOps &amp; tools</h3>
-              <p>Docker, GitHub Actions, Git, Maven, CI/CD</p>
+              <p>Docker, GitHub Actions, Terraform, Git, Postman, Sentry</p>
             </div>
           </div>
         </div>
